@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="d3Style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>2014 U.S. State Data  Muestra la relación entre Salud y Pobreza </h2>
+          <p>Para visualizar las diferentes graficas, selecciona que quieres ver pobreza, edad, Ingresos, obesidad, fumadores y sin Seguridad Social. Cada selección muestra los estados representando en circulos. Se puede seleccionar cada ciruclo, para ver los datos específicos de cada Esatdo.</p>
+          <p>A pesar de ser de 2014, los datos reflejan claramente las relaciones entre las diferentes variables, un ejemplo de ello, es en la gráfrica % Pobreza vs Sin Seguridad Social, podemos observar los extremos entre Texas con 17% de pobreza y 25% sin seguridad social y del otro lado Massachusetts con una rpobeza del 11% y falda de seguridad del 5%. Lo importante de esta gráfica es que muestra que tan expuesta esta la población hacia factures externos que puedan poner en una situación critica a la población y hacia donde deberían del ir las politicas públicas a fin de reducir la vulnerabilidad de las personas  </p>
+          <p>Si seleccionan Income vs Obesity se puede ver una clara relación entre el ingreso y la obesidad; donde los estados con menor ingresos , son a su vez los que mayor porcentaje de obesidad tienen. Si establecemos la grafica de Probeza vs Obesidad nos va a dar casi el mismo resultado que la anterior, pero el vista es la inversa que la anterior, es decir la relación se vuele positiva, a mayor porcetaje de pobreza mayor porcentaje de obsesidad. </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2020</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+
+
+</body>
+
+
+
+</html>
